@@ -4,6 +4,7 @@ show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://humb1ec0ding.github.io" # change this to the base hostname & protocol for your site
+permalink: "/:year/:month/:day/:title/"
 
 google_analytics:
 # cayman-blog date format
@@ -31,8 +32,6 @@ github:
 
 disqus:
   shortname: "humb1ec0ding"
-
-permalink: /:year/:month/:day/:title/
 
 gems:
   - jekyll-feed
