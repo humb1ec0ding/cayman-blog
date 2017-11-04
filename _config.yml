@@ -18,6 +18,9 @@ author: "humb1ec0ding"
 image: /thumbnail-jumbo.png
 twitter:
   username: humb1ec0ding
+github:
+  username: humb1ec0ding
+  
 #  site:
 #facebook:
   #publisher: 1592372034171500
@@ -28,6 +31,8 @@ twitter:
 
 disqus:
   shortname: "humb1ec0ding"
+
+permalink: /:year/:month/:day/:title/
 
 gems:
   - jekyll-feed
